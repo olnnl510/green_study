@@ -9,10 +9,29 @@
 */
 
 
-for($i=3; $i>=10; $i++)
-{
-    print "돈";
-}
+    $money = rand(3, 10);
+    print "money : $money <br>";
+    for($i=0; $i<$money; $i++)
+    {
+        print "돈";
+    }
+    print "<br>";
+
+
+
+
+    $money = rand(3, 10);
+    print "money : $money <br>";
+
+    
+    for($z=0; $z<$star; $z++)     {
+        for($i=0; $i<$star; $i++)
+        {
+            print "돈";
+        }
+        print "<br>";
+    }    
+
 
 
 ?>
