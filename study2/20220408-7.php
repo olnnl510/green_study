@@ -9,13 +9,6 @@
 */
 
 
-    $money = rand(3, 10);
-    print "money : $money <br>";
-    for($i=0; $i<$money; $i++)
-    {
-        print "돈";
-    }
-    print "<br>";
 
 
 
@@ -24,8 +17,8 @@
     print "money : $money <br>";
 
     
-    for($z=0; $z<$star; $z++)     {
-        for($i=0; $i<$star; $i++)
+    for($z=0; $z<$money; $z++)     {
+        for($i=0; $i<$money; $i++)
         {
             print "돈";
         }
