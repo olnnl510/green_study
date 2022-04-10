@@ -9,10 +9,19 @@
 */
 
 
-$num = 1 <= $num <= 50
-print $num;
+$multiple3
+$multiple5
 
+for($i; $i<=50; $i++)
+{
+    $multiple3 = $i % 3 = 0;
 
+    print $multiple3 ;
+
+    $multiple5 = $i % 5 = 0 ;
+}
+
+print $multiple3 + $multiple5
 
 
 
