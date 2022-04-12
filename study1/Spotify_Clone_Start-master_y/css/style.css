@@ -13,6 +13,7 @@ ul {
 .container {
     background-color: #000;
     width: 100%
+    height: 100vh;
 }
 .container .s_header {
     background-color: #000;
@@ -132,6 +133,9 @@ ul {
 }
 .container .s_footer .s_footer1 .s_footer1_2 td a {
     color: #fff;
+}
+.container .s_footer .s_footer1 .s_footer1_2 td a:hover {
+    color: #1ED760;
 }
 .container .s_footer .s_footer1 .s_footer1_3 .mark1 {
     width: 50px;
